@@ -1,7 +1,8 @@
-import requests
-from bs4 import BeautifulSoup
-import smtplib
 import pandas as pd
+from data_retrieval import get_price_and_titles
+from notification import send_mail
+from csv_management import check_price
+from config import DATA, HEADERS
 
 def main():
     # create a DataFrame with the given URLs

@@ -1,6 +1,6 @@
 import smtplib
 
-def send_mail(url, title, sender_email):
+def send_mail(url, title):
  try:
          """SMTP client session object that can be used to send mail to any internet machine
          with an SMTP or ESMTP listener daemon."""

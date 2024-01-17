@@ -1,6 +1,6 @@
 import pandas as pd
 
-def check_price(file_path, sender_email, sender_password):
+def check_price(file_path):
     df = pd.read_csv(file_path)
     next(df)
     for row in df:
